@@ -1,2 +1,2 @@
 # meeteasier-docker
-Mod your credential in docker-compose
+Modify your credential in docker-compose
