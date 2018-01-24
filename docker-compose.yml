@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  meeteasier:
+    build:
+      context: docker/
+      dockerfile: ./Dockerfile
+      args:
+        - LOGIN=XXXXXXX
+        - PASSWORD=XXXXXXX
+        - DOMAINE=XXXXXXX
+        - PROXY=URL
+        - PORT=8080
+    ports:
+      - 8080:8080
