@@ -4,19 +4,19 @@ module.exports = {
       'thomas.feillant@biig.fr'
     ],
     'text' : {
-      'nextUp' : 'Prochaine:',
-      'statusAvailable' : 'Libre',
-      'statusBusy' : 'Occupée',
+      'nextUp' : 'Next Up:',
+      'statusAvailable' : 'Open',
+      'statusBusy' : 'Busy',
     }
   },
 
   'navbar' : {
-    'title' : 'Disponibilité des salles',
+    'title' : 'Conference Room Availability',
   },
 
   'roomFilter' : {
-    'filterTitle' : 'Emplacementdoc',
-    'filterAllTitle' : 'Toutes les salles',
+    'filterTitle' : 'Locations',
+    'filterAllTitle' : 'All Conference Rooms',
   },
 
   'socket' : {
