@@ -4,9 +4,9 @@ ARG PASSWORD
 ARG PROXY
 ARG PORT
 ARG DOMAINE
-RUN apt-get update && apt-get install -y curl gnupg git
+RUN apt-get update && apt-get install -y curl gnupg git npm
 RUN curl -sL https://deb.nodesource.com/setup_9.x | bash -
-RUN apt-get install -y nodejs
+RUN apt-get update && apt-get install -y nodejs
 RUN rm -rf /var/lib/apt/lists/*
 WORKDIR /opt/meeteasier
 RUN git clone https://github.com/danxfisher/MeetEasier.git /opt/meeteasier
